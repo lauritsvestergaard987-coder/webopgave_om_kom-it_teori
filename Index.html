@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOM/IT C - Eksamen Hjemmeside</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F1F1F1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FF5733;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #FF5733;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #FF5733;
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        .highlight {
+            color: #FF5733;
+            font-weight: bold;
+            cursor: pointer;
+            border-bottom: 2px solid #FF5733;
+        }
+
+        .popup {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.75);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+            font-size: 1em;
+            max-width: 300px;
+            z-index: 10;
+            pointer-events: none;
+            transform: translateX(-50%);
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 300px;
+            background-color: #ccc;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #FF5733;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>KOM/IT C - Eksamen Hjælp</h1>
+        <p>Din guide til at forstå de vigtigste begreber til eksamen</p>
+    </header>
+
+    <nav>
+        <a href="#forside">Forside</a>
+        <a href="#eksamensprojekt">Eksamensprojekt</a>
+        <a href="#begreber">Centrale Begreber</a>
+        <a href="#feedback">Feedback</a>
+        <a href="#etik">Etik og Ophavsret</a>
+    </nav>
+
+    <section id="forside">
+        <h2>Velkommen!</h2>
+        <p>Velkommen til din guide til KOM/IT C eksamen! Denne hjemmeside er designet til at hjælpe dig med at forstå de vigtigste begreber, som du skal kende, når du arbejder med dit eksamensprojekt. Her finder du både teoretisk viden og praktiske eksempler, som kan hjælpe dig med at strukturere dit arbejde og forstå de centrale teorier og begreber i faget. Du vil blive præsenteret for alle de nødvendige værktøjer og ressourcer, du skal bruge for at få succes i dit eksamensprojekt.</p>
+
+        <img src="Billeder/orange-technology-technology-gear-design.jpg" alt="Billede af eksamensprojekt" class="image-placeholder">
+        
+        <p>Hjemmesiden er opdelt i flere sektioner, der dækker de vigtigste emner, du skal bruge til dit eksamensprojekt. Her kan du finde information om, hvordan du udarbejder din <span class="highlight" data-popup="Problemformuleringen definerer, hvad opgaven går ud på, og hvad produktet skal løse.">problemformulering</span>, vælger medie, analyserer din <span class="highlight" data-popup="Målgruppeanalysen beskriver, hvem modtageren af kommunikationen er, og hvilke behov og medievaner de har.">målgruppe</span>, og meget mere. Der er også eksempler på, hvordan disse begreber kan anvendes i et konkret eksamensprojekt.</p>
+
+        <p><strong>Sådan bruger du denne guide:</strong></p>
+        <ul>
+            <li><strong>Forstå de centrale begreber:</strong> Få forklaringer på de vigtigste begreber, du skal kunne til eksamen.</li>
+            <li><strong>Følg eksemplerne:</strong> Brug konkrete eksempler og anvend begreberne i praksis.</li>
+            <li><strong>Forbered dig til eksamen:</strong> Find ud af, hvad du skal kunne sige til eksamen, og hvordan du bedst forklarer dine valg.</li>
+        </ul>
+
+        <p>Vi håber, at du får meget ud af denne guide og ønsker dig held og lykke med dit eksamensprojekt!</p>
+    </section>
+
+    <section id="eksamensprojekt">
+        <h2>Eksamensprojektet kort fortalt</h2>
+        <p>Eksamensprojektet i KOM/IT C er en mundtlig eksamen, der tager udgangspunkt i et eller flere kommunikationsprodukter, som du har udviklet. Du skal præsentere og forklare dit produkt, samt besvare spørgsmål omkring valg og fravalg af design, medie, <span class="highlight" data-popup="Kommunikationsstrategien handler om, hvordan du vælger at formidle dit budskab til målgruppen.">kommunikationsstrategi</span>, <span class="highlight" data-popup="Medievalg refererer til valg af medie, fx hjemmeside, app eller video, som bedst kan kommunikere budskabet til målgruppen.">medievalg</span> og andre relevante teorier. Din rapport på 5-12 normalsider skal underbygge dine valg og give en dybere forklaring på, hvordan du har løst kommunikationen.</p>
+
+        <img src="Billeder/exam.avif" alt="Eksamen billede" class="image-placeholder">
+        
+        <p><strong>Hvordan eksamen forløber:</strong></p>
+        <ul>
+            <li><strong>Varighed:</strong> Den mundtlige eksamen varer cirka 30-45 minutter.</li>
+            <li><strong>Kommunikationsproduktet:</strong> Du præsenterer dit kommunikationsprodukt (f.eks. en hjemmeside, app eller video) og forklarer, hvordan du har arbejdet med det.</li>
+            <li><strong>Spørgsmål:</strong> Du bliver stillet spørgsmål af eksaminator om dine valg, processer og teorier.</li>
+        </ul>
+
+        <p>Husk, at det ikke kun er dit produkt, der vurderes, men også din evne til at forklare og forsvare dine valg med relevant teori og argumentation.</p>
+    </section>
+
+    <section id="begreber">
+        <h2>Centrale Begreber</h2>
+        <p>Her finder du de vigtigste begreber, du skal bruge i dit eksamensprojekt. Hvert begreb bliver forklaret med en definition, hvorfor det er vigtigt, og hvordan du kan bruge det i praksis. Jeg har også inkluderet typiske fejl, som du bør undgå, samt hvad du skal kunne sige til eksamen. Gennem denne sektion får du et solidt fundament til dit eksamensarbejde.</p>
+
+        <div class="begreb">
+            <h3>Problemformulering</h3>
+            <p><strong>Definition:</strong> Problemformuleringen definerer, hvad opgaven går ud på, og hvad produktet skal løse. En god <span class="highlight" data-popup="En god problemformulering sikrer, at du arbejder med et konkret og relevant problem, som du kan løse gennem dit kommunikationsprodukt.">problemformulering</span> hjælper med at afgrænse opgaven og holde fokus på projektets mål. Den er fundamentet for dit eksamensprojekt og skal kunne besvares tydeligt i eksamen.</p>
+            <p><strong>Hvorfor er begrebet vigtigt?</strong> Det er grundlaget for dit projekt og hjælper med at afklare, hvad dit produkt skal opnå. En præcis problemformulering holder dig på rette spor gennem hele projektet.</p>
+            <p><strong>Eksempel fra dit projekt:</strong> For eksempel kan en problemformulering være: "Hvordan kan en hjemmeside designes, der effektivt kommunikerer et produkt til unge voksne?".</p>
+            <p><strong>Typiske fejl:</strong> En uklar problemformulering, der ikke præcist angiver opgaven, eller som ikke er afgrænset nok. Undgå for brede eller vage formuleringer, da de kan gøre projektet svært at styre.</p>
+            <p><strong>Det skal du kunne sige til eksamen:</strong> Du skal kunne forklare, hvad din problemformulering er, og hvordan du har afgrænset den for at kunne arbejde effektivt med den.</p>
+        </div>
+
+        <div class="begreb">
+            <h3>Målgruppeanalyse</h3>
+            <p><strong>Definition:</strong> Målgruppeanalysen beskriver, hvem modtageren af kommunikationen er, og hvilke behov og medievaner de har. En god <span class="highlight" data-popup="Målgruppeanalyse hjælper med at skræddersy kommunikationen, så den taler direkte til modtagerens interesser og behov.">målgruppeanalyse</span> sikrer, at dit kommunikationsprodukt er relevant og effektivt. Denne analyse hjælper dig med at vælge de rette kommunikationskanaler og designet, som tiltaler målgruppen.</p>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <p>Feedback er en vigtig del af arbejdet med dit eksamensprojekt. Det hjælper dig med at forbedre dit produkt og din præsentation. Det er vigtigt at være åben over for feedback og bruge den konstruktivt til at justere og forfine dit arbejde.</p>
+        <ul>
+            <li><strong>Hvordan får du feedback?</strong> Du kan få feedback fra lærere, klassekammerater eller andre, der kender emnet. Brug feedbacken til at finde svagheder i dit arbejde.</li>
+            <li><strong>Hvordan anvender du feedback?</strong> Gennemgå den feedback, du har modtaget, og juster dit projekt. Tænk over, hvordan ændringerne kan forbedre produktets kvalitet og relevans.</li>
+        </ul>
+    </section>
+
+    <section id="etik">
+        <h2>Etik og Ophavsret</h2>
+        <p>Etik og ophavsret er essentielle overvejelser, når du laver et kommunikationsprodukt. Du skal være opmærksom på, hvordan dit produkt påvirker målgruppen, samt sikre at alle billeder, videoer og tekster, du bruger, er lovligt indhentet.</p>
+        <ul>
+            <li><strong>Etik:</strong> Hvordan påvirker dit produkt brugerne? Er det fair og respektfuldt? Skal du tage hensyn til potentielle negative konsekvenser?</li>
+            <li><strong>Ophavsret:</strong> Brug kun billeder, videoer og tekst, som du har ret til at bruge. Sørg for, at alle eksterne medier er licenseret korrekt eller brug Creative Commons-licenserede materialer.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 KOM/IT C Eksamenshjælp. Alle rettigheder forbeholdes.</p>
+    </footer>
+
+    <div id="popup" class="popup"></div>
+
+    <script>
+        let timeout;
+
+        // Pop-up funktion
+        document.querySelectorAll('.highlight').forEach(function(element) {
+            element.addEventListener('mouseenter', function(event) {
+                timeout = setTimeout(function() {
+                    const popup = document.getElementById('popup');
+                    popup.textContent = element.getAttribute('data-popup');
+                    popup.style.top = `${event.pageY + 10}px`;
+                    popup.style.left = `${event.pageX + 10}px`;
+                    popup.style.display = 'block'; // Vis pop-up'en
+                }, 500); // 0,5 sekunders forsinkelse
+            });
+
+            element.addEventListener('mouseleave', function() {
+                clearTimeout(timeout); // Stopper pop-up hvis musen fjernes hurtigt
+                document.getElementById('popup').style.display = 'none'; // Skjul pop-up'en
+            });
+        });
+    </script>
+
+</body>
+</html>
